@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import "./Product.css";
+@import "./Cart.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: grid;
+  margin: 0.6rem;
+  grid-template-columns: 1fr;
+  font-family: "Poppins", sans-serif;
+  gap: 1rem;
+  grid-template-areas:
+    "c"
+    "p";
+}
+
+@media screen and (min-width: 36em) {
+  .product {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .product-image img {
+    aspect-ratio: 1 / 1;
+  }
+}
+@media screen and (min-width: 62em) {
+  .App {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "p c";
+  }
+}
+@media screen and (min-width: 75em) {
+  .App {
+    grid-template-columns: 3fr 1fr;
+  }
+  .product {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

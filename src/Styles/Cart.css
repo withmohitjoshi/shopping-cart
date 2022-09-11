@@ -1,0 +1,66 @@
+
+.cart {
+    align-self: flex-start;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: c;
+  }
+  .cart-heading {
+    font-size: 1.4rem;
+  }
+  .cart > p {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .cart > p span {
+    color: hsl(0, 0%, 42%);
+    font-weight: 400;
+  }
+  .cart-item {
+    margin-bottom: 0.8rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr max-content;
+    gap: 0.4rem;
+    align-items: center;
+    justify-items: start;
+  }
+  .cart-item-img img {
+    width: 100%;
+    display: block;
+  }
+  .cart-item-title {
+    font-size: 0.95rem;
+    color: hsl(0, 0%, 12%);
+    font-weight: 600;
+  }
+  .cart-item-price {
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 12%);
+    font-weight: 500;
+  }
+  .cart-item-price span {
+    color: hsl(0, 0%, 42%);
+    font-weight: 400;
+  }
+  
+  .qyt-btn button {
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    padding: 0.15rem 0.65rem;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(0, 0%, 28%);
+  }
+  .qyt-btn span {
+    margin: 0 0.65rem;
+  }
+  
