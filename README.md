@@ -6,6 +6,7 @@
     - [Links](#links)
     - [Screenshot](#screenshot)
     - [Built with](#built-with)
+    - [Api Used](#api-used)
     - [Author](#author)
     - [Other Projects](#other-projects)
 
@@ -30,6 +31,10 @@
 - HTML5
 - CSS3 custom properties
 - Grid and Flexbox
+
+### Api Used
+ - [Dummy Json](https://dummyjson.com/products)
+
 
 ### Author
 
